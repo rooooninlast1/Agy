@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.jules/
+code (5).zip
+jules-tasks.pdf
