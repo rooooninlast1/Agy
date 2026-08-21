@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite';
 import { resolve } from 'path';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   build: {
@@ -14,7 +14,7 @@ export default defineConfig({
         'project-4': resolve(__dirname, 'project-4.html'),
         services: resolve(__dirname, 'services.html'),
         contact: resolve(__dirname, 'contact.html'),
-      }
-    }
-  }
+      },
+    },
+  },
 });
